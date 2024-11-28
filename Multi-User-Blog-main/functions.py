@@ -69,4 +69,3 @@ def signup(signup_user_entry, signup_user_pass, signup_email_entry, signup_phone
         if db.is_connected():
             cursor.close()
             db.close()
-
